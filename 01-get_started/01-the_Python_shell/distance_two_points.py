@@ -4,8 +4,6 @@ Calculate the distance between two points
 
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
-    krother@academis.eu
-
     Licensed under the conditions of the Python License
 
     This code appears in section 1.4.1 of the book

@@ -1,22 +1,22 @@
 '''
 
-Calculate the deltaG value of ATP hydrolysis from concentrations
+Create a random DNA sequence of length 10
 
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 1.2.2 of the book
+    This code appears in section 2.4.1 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
 
-ATP = 3.5
-ADP = 1.8
-Pi = 5.0
-R = 0.00831
-T = 298
-deltaG0 = -30.5
+import random
 
-import math
-print deltaG0 + R * T * math.log(ADP * Pi / ATP)
+alphabet = "AGCT"
+sequence = ""
+for i in range(10):
+    index = random.randint(0, 3)
+    sequence = sequence + alphabet[index]
+    
+print sequence

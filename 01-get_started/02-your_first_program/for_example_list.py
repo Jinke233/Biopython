@@ -1,22 +1,17 @@
 '''
-
-Calculate the deltaG value of ATP hydrolysis from concentrations
-
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 1.2.2 of the book
+    This code appears in section 2.3.5 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
+# running a for loop over a list of numbers
+for i in [1, 2, 3, 4, 5]:
+    print i
 
-ATP = 3.5
-ADP = 1.8
-Pi = 5.0
-R = 0.00831
-T = 298
-deltaG0 = -30.5
+# range(10) creates a list of numbers from 0 to 9.
+for number in range(10):
+    print number,
 
-import math
-print deltaG0 + R * T * math.log(ADP * Pi / ATP)
