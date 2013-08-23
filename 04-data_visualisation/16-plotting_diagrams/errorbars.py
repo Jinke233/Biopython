@@ -6,7 +6,7 @@ Add error bars to a scatterplot or bar chart.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 17.4.3 of the book
+    This code appears in section 16.4.3 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
