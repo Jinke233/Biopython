@@ -7,7 +7,7 @@ and calculates a rotation/translation matrix plus RMSD.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 22.4.3 of the book
+    This code appears in section 21.4.3 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

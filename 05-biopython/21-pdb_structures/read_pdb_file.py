@@ -6,7 +6,7 @@ Retrieve a PDB structure file from the web and parse it with Biopython.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 22.2.2 of the book
+    This code appears in section 21.2.2 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
