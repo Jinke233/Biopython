@@ -6,7 +6,7 @@ Avoid the lag when applications share files.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 15.3.4 of the book
+    This code appears in section 14.3.5 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
@@ -14,9 +14,7 @@ Avoid the lag when applications share files.
 
 import sys
 import os
-
 sys.path.append('/home/RNA-seq/')
-
 from pathvariables import tophat_dir, index_dir, cufflinks_dir
 
 # the tophat program creates a file 

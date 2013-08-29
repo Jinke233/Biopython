@@ -6,7 +6,7 @@ Run two external programs from one Python script.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 15.2.2 of the book
+    This code appears in section 14.2.2 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

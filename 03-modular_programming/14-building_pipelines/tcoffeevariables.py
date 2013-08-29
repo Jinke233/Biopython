@@ -3,7 +3,7 @@
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in chapter 15 of the book
+    This code appears in chapter 14 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

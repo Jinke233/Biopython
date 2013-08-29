@@ -6,7 +6,7 @@ Run tcoffee to create a multiple alignment.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 15.4.1 of the book
+    This code appears in section 14.4.1 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

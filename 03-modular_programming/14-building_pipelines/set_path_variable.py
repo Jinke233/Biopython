@@ -6,7 +6,7 @@ Add a directory to sys.path where Python is looking for modules.
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 15.3.3 of the book
+    This code appears in section 14.3.4 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
