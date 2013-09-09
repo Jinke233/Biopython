@@ -47,8 +47,8 @@ for frame in range(3):
             # handle too short codons
             prot = prot + '-' 	
 
-    # format to blocks of 64 columns
+    # format to blocks of 48 columns
     i = 0
     while i < len(prot):
-        print prot[i:i + 64]
-        i = i + 64
+        print prot[i:i + 48]
+        i = i + 48

@@ -6,9 +6,6 @@ using a linear regression.
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
-
-    This code appears in section 7.4.6 of the book
-    "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
 

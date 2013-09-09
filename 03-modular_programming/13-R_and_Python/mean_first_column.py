@@ -6,7 +6,7 @@ Calculate a mean value from a table file
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 13.2.2 of the book
+    This code appears in section 13.4.2 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

@@ -6,7 +6,7 @@ Write and then read the same file
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
 
-    This code appears in section 1.4.1 of the book
+    This code appears in section 3.3.2 of the book
     "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''

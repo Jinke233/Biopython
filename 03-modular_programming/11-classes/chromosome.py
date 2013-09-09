@@ -5,9 +5,6 @@ Chromosome class for import by other code examples.
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
-
-    This code appears in chapter 11 of the book
-    "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
 

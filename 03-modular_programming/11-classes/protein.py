@@ -5,9 +5,6 @@ One class can have many instances.
 -----------------------------------------------------------
 (c) 2013 Allegra Via and Kristian Rother
     Licensed under the conditions of the Python License
-
-    This code appears in section 11.3.5 of the book
-    "Managing Biological Data with Python".
 -----------------------------------------------------------
 '''
 

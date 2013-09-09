@@ -11,17 +11,17 @@ Create a class that uses another class.
 -----------------------------------------------------------
 '''
 
-from chromosome import chromosomes
+from pea import Pea
 
-class Genome:
-    '''A Genome contains one to many chromosomes.'''
-    def __init__(self, chromosomes):
-        '''Sets a list of chromosomes.'''
-        self.chromosomes = chromosomes
-    
+class PeaStrain:
+    def __init__(self, peas):
+        self.peas = peas
+
     def __repr__(self):
-        return 'genome with %i chromosomes' % (len(self.chromosomes))
+        return 'strain with %i peas'%(len(self.peas))
 
+yellow = Pea('GG')
+green = Pea('gg')
+strain = PeaStrain([yellow, green])
+print strain
 
-human_genome = Genome(chromosomes)
-print human_genome

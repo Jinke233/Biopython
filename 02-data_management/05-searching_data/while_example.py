@@ -11,12 +11,12 @@ Find the insulin sequence in a FASTA file.
 -----------------------------------------------------------
 '''
 
-uniprot = open("SwissProt.fasta")
+swissprot = open("SwissProt.fasta")
 insulin_ac = 'P61981'
 result = None
 
 while result == None:
-    line = uniprot.next()
+    line = swissprot.next()
     if line.startswith('>'):
         ac = line.split('|')[1]
         if ac == insulin_ac:

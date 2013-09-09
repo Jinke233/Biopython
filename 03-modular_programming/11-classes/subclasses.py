@@ -12,18 +12,17 @@ and extend their functionality.
 -----------------------------------------------------------
 '''
 
-from chromosome import Chromosome
+from pea import Pea
 
-class CircularChromosome(Chromosome):
-    '''Chromosome that has an origin.'''
+class CommentedPea(Pea):
 
-    def __init__(self, bases, genes, origin):
-        '''
-        First calls the inherited __init__() of Chromosome,
-        then creates the origin attribute.
-        '''
-        Chromosome.__init__(self, '1', 'circular', bases, genes)
-        self.origin = origin
+    def __init__(self, genotype, comment):
+        Pea.__init__(self, genotype)
+        self.comment = comment
 
-e_coli = CircularChromosome(4639221, 4228, 0)
-print e_coli
+    def __repr__(self):
+        return  '%s [%s] (%s)' % (self.get_phenotype(), self.genotype, self.comment)
+
+yellow1 = CommentedPea('GG', 'homozygote')
+yellow2 = CommentedPea('Gg', 'heterozygote')
+print yellow1

@@ -43,11 +43,11 @@ def write_output(filename, count_pri, count_sec):
     """Writes counted values to a file."""
     output = open(filename,"w")
     output.write("category      <100  100-300   >300\n")
-    output.write("Primary  :  %5i   %5i   %5i\n"%count_pri)
-    output.write("Secondary:  %5i   %5i   %5i\n"%count_sec)
+    output.write("Primary  :  %5i   %5i   %5i\n" % count_pri)
+    output.write("Secondary:  %5i   %5i   %5i\n" % count_sec)
     output.close()
 
 primary, secondary = read_data('neuron_data.xls')
 count_pri = evaluate_data(primary)
 count_sec = evaluate_data(secondary)
-write_output_file('results.txt',count_pri,count_sec)
+write_output_file('results.txt' , count_pri,count_sec)
